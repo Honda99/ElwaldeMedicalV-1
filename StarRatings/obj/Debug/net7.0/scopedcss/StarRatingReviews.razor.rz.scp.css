@@ -1,0 +1,46 @@
+.reviews[b-8rm838r1xm]  textarea {
+    display: block;
+    padding: 6px 8px;
+    margin-bottom: 5px;
+    width: 100%;
+    border: 1px solid #605E5C;
+    border-radius: 2px;
+    font-family: Open Sans, sans-serif;
+    font-size: 0.8em;
+    color: #605E5C;
+    box-sizing: border-box;
+}
+
+.reviews[b-8rm838r1xm]  .rating {
+    display: none;
+}
+
+.review-editor[b-8rm838r1xm] {
+    margin-bottom: 10px;
+}
+
+button[b-8rm838r1xm] {
+    padding: 6px 25px;
+    font-family: Playfair Display;
+    color: white;
+    background-color: #435869;
+    border-radius: 2px;
+    border: 0;
+}
+
+    button:hover[b-8rm838r1xm] {
+        background-color: #334452;
+    }
+
+    button:active[b-8rm838r1xm] {
+        background-color: #26343f;
+    }
+
+[b-8rm838r1xm] input.invalid, [b-8rm838r1xm] textarea.invalid, [b-8rm838r1xm] div.invalid {
+    border: 1px solid red;
+}
+
+[b-8rm838r1xm] .validation-errors {
+    color: red;
+    font-size: 0.8em;
+}

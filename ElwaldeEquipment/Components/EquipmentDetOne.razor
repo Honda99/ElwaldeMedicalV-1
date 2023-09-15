@@ -1,0 +1,246 @@
+﻿@using ElwaldeEquipment.Data;
+@inject IEquipmentsStore equipmentStore;
+<div class="logo">
+ <img src="/images/ElwaldeLogo.png" width="150" height="150" alt="..."/>
+</div>
+<div class="equip">
+   
+    @if (Equipment == null)
+    {
+        <h1>Equipment not found!</h1>
+    }
+    else
+    {
+        <h1>@Equipment.Name</h1>
+        <div class="source-and-servings">
+            @Equipment.SourceShort
+        </div>
+        <div class="star-rating-avg">
+            <StarRating Value="Equipment.Reviews.AverageRating()" />
+        </div>
+        <div class="prod-img-container">
+            <div class="equip-banner">
+                <img  heigth="300" width="500" src="@Equipment.CardImageUrl" />
+            </div>
+        
+         <div class="detail-img-container">
+             
+                @foreach (var detail in @Equipment.ProductDetails)
+                {
+                    if (imgCount > 0)
+                    {
+                        <img src="@detail.Imgurl" height="100" width="125"  alt="..." />
+                    }
+                   
+                    imgCount--;
+                }
+            </div>
+        </div>
+        <div class="equip-details">
+            <h2>Tags</h2>
+            @foreach (var tag in Equipment.Tags)
+            {
+                <a class="tag" href="@($"tag/{tag}")">@tag</a>
+            }
+            @if (!string.IsNullOrWhiteSpace(Equipment.Descriptions))
+            {
+                <h2>Descriptions</h2>
+                @foreach (var description in Equipment.Descriptions.Split("\r\n"))
+                {
+                    <p>@description</p>
+                }
+            }
+      
+            @if (Equipment.Performances.Length > 0)
+            {
+                <h2>Functions</h2>
+                <ul>
+                    @for (int i = 0; i < Equipment.Performances.Length; i++)
+                    {
+                        string id = $"functions{i}";
+                        <li>
+                            <input id="@id" type="checkbox" />
+                            <label for="@id">@Equipment.Performances[i]</label>
+                        </li>
+                    }
+                </ul>
+            }
+            @if (Equipment.TestItems.Length > 0)
+            {
+                <h2>Test Items</h2>
+                <ul>
+                    @for (int i = 0; i < Equipment.TestItems.Length; i++)
+                    {
+                        string id = $"test items{i}";
+                        <li>
+                            <input id="@id" type="checkbox" />
+                            <label for="@id">@Equipment.TestItems[i]</label>
+                        </li>
+                    }
+                </ul>
+            }
+
+            <div class="contact-container">
+                <button class="btn btn-contact" @onclick="(()=>showContact= !showContact ?  true: false)">Contact Us</button>
+              <div class="@(showContact?"contactus":"hide")">
+                  <ContactUs/>
+              </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="mb-0">
+                        <button class="btn btn-tab" @onclick="@(()=>Expand(0))">
+                            Specifications
+                        </button>
+                    </h4>
+                    <h3 class="mb-0">
+                        <button class="btn btn-tab" @onclick="@(()=>Expand(1))">
+                            Parameters
+                        </button>
+                    </h3>
+                    <h4 class="mb-0">
+                        <button class="btn btn-tab" @onclick="@(()=>Expand(2))">
+                            Options
+                        </button>
+                    </h4>
+                </div>
+
+                <div class="@(specifications?"show":"collapse")">
+                    <div class="card-body">
+                        <table class="table table-bordered">
+
+                            @foreach (KeyValuePair<string, string> spec in Equipment.Specifications)
+                            {
+
+                                if (initialLoop)
+                                {
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">@spec.Key</th>
+                                            <th scope="col">@spec.Value</th>
+                                        </tr>
+                                    </thead>
+                                    initialLoop = false;
+                                }
+                                else
+                                {
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">@spec.Key</th>
+                                            <td>@spec.Value</td>
+                                        </tr>
+                                    </tbody>
+                                }
+                            }
+                        </table>
+                        <div class="product-detail">
+                            @for (int i = 0; i < Equipment.ProductDetails.Length; i++)
+                            {
+
+                                var desc = @Equipment.ProductDetails[i].Detail.Split("\n");
+                                <div class="detail-container">
+                                    <div class="detail-img"><img src="@Equipment.ProductDetails[i].Imgurl" width="200" height="200" alt="..." /></div>
+                                    <div class="detail-desc">
+                                        <h3>@Equipment.ProductDetails[i].Name</h3>
+                                        <hr />
+                                        @foreach (var det in desc)
+                                        {
+                                            <p>@det</p>
+                                        }
+
+                                    </div>
+                                </div>
+                            }
+                        </div>
+
+                    </div>
+                </div>
+                <div class="@(parameters?"show":"collapse")">
+                    <div class="card-body">
+                        @foreach (KeyValuePair<string, Dictionary<string, string>> para in Equipment.Parameters)
+                        {
+
+                            <h3>@para.Key:</h3>
+                            <table class="table table-bordered">
+
+                                @foreach (KeyValuePair<string, string> spec in para.Value)
+                                {
+
+                                    if (initialLoop)
+                                    {
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">@spec.Key</th>
+                                                <th scope="col">@spec.Value</th>
+                                            </tr>
+                                        </thead>
+                                        initialLoop = false;
+                                    }
+                                    else
+                                    {
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">@spec.Key</th>
+                                                <td>@spec.Value</td>
+                                            </tr>
+                                        </tbody>
+                                    }
+                                }
+                            </table>
+                        }
+                        @if (Equipment.Confugitation.Length > 0)
+                        {
+                        <h3>Confugitation</h3>
+                        <table class="table table-bordered">
+                            @for (int i = 0; i < Equipment.Confugitation.Length; i++)
+                            {
+                                <tbody>
+                                    <tr>
+                                        <td>@Equipment.Confugitation[i]</td>
+                                    </tr>
+                                </tbody>
+                            }
+                        </table>
+                        }
+                    </div>
+                </div>
+                <div class="@(options?"show":"collapse")">
+                    <div class="card-body">
+                       
+                    </div>
+                </div>
+            </div>
+
+            <StarRatingReviews Reviews="Equipment.Reviews" OnSubmitReview="OnSubmitReview" />
+        </div>
+    }
+</div>
+<button class="btn btn-tab" @onclick="@(()=>Expand(1))">
+    Par
+</button>
+@code {
+    [Parameter]
+    public Equipment Equipment { get; set; }
+    private bool initialLoop = true;
+    private bool collapse = true;
+    private bool options = false;
+    private bool parameters = false;
+    private bool specifications = true;
+    private bool showContact = false;
+    private int imgCount = 4;
+    Task OnSubmitReview(Review review)
+    {
+        Equipment!.Reviews.Insert(0, review);
+        return equipmentStore.UpdateEquipment(Equipment);
+    }
+    private void Expand(int opt)
+    {
+        switch (opt)
+        {
+            case 0: specifications = true; parameters = false; options = false; break;
+            case 1: specifications = false; parameters = true; options = false; break;
+            case 2: specifications = false; parameters = false; options = true; break;
+            default: break;
+        }
+    }
+}

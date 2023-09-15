@@ -1,0 +1,97 @@
+﻿@page "/"
+@page "/mainpage"
+@inject IEquipmentsStore equipmentStore;
+@using ElwaldeEquipment.Data;
+@using ElwaldeEquipment.Model;
+@using static ElwaldeEquipment.Data.EnumClass;
+@using System.Text.Json;
+@using Newtonsoft.Json;
+@inject IJSRuntime JSRuntime
+<PageTitle>Index</PageTitle>
+<div class="carousel-container">
+    <Carousel Images="carouselImages" />
+</div>
+<div class="main-container">
+    <div class="search-container">
+        <SearchBox placeholder="Search equipments..." SearchQueryChanged="Search" />
+    </div>
+   
+
+    @if (equipments == null)
+    {
+        <p>Loading equipments...</p>
+    }
+    else
+    {
+        <ul class="equip-list">
+            @foreach (var equipment in equipments)
+            {
+                <li class="equip-list-item">
+                    <a href="@equipment.Id">
+                        <EquipmentCard Equipment="equipment" />
+                    </a>
+                </li>
+            }
+        </ul>
+    }
+</div>
+
+@code {
+    IEnumerable<Equipment>? equipments;
+    List<CarouselImage> carouselImages = new List<CarouselImage>
+    {
+        new CarouselImage
+        {
+            Url = "images/banners/diagonesis.png",
+            Title="Diagonesis Device",
+            AltText = "diagonesis",
+            Caption = "",
+            Description = "Biochemistry Analazer, Auto Hemotology Analyzer, Cogulation Analyzer, Urine Analyzer, ESR Analyzer",
+            Duration=6000,
+            Catagory="diagonestic"
+        },
+        new CarouselImage
+        {
+            Url = "images/banners/weight scale.png",
+            Title="Medical Weighing Scales",
+            AltText = "weight scale",
+            Caption = " ",
+            Description = "Body composition analysis, Patient transfer scale, Column scales, Infant scales, Floor scales, Bed scales, Wheelchair scales...",
+            Duration=5000,
+            Catagory="weight scale"
+
+        },
+        new CarouselImage
+        {
+            Url = "images/banners/ICU solution.png",
+            Title="OR & ICU Solutions",
+            AltText = "ICU Solutions",
+            Caption = "",
+            Description = "Syringe Pump, Anesthesia Machine, H12 Twelve-channel Electrocardiograph",
+            Duration=6000,
+            Catagory="other"
+        },
+         new CarouselImage
+        {
+            Url = "images/banners/dental unit.png",
+            Title="Dental Units",
+            AltText = "Dental Units",
+            Caption = "",
+            Description = "Dental chair units are the foundation of any dental practice, and their quality and functionality can make or break the patient's experience. ",
+            Duration=7000,
+            Catagory="dental"
+        }
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        equipments = await equipmentStore.GetEquipments();
+    }
+    async Task Search(string query)
+    {
+        equipments = await equipmentStore.GetEquipments(query);
+    }
+}
+
+
+

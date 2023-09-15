@@ -1,0 +1,34 @@
+﻿.equip-card {
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
+}
+
+    .equip-card img {
+        width: 100%;
+    }
+
+.equip-card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 8px 0px 8px;
+}
+
+.equip-card-name {
+    display: inline;
+    margin: 1rem 0 1rem 0;
+    overflow:hidden;
+
+}
+
+.equip-card-source {
+    margin-top: 0;
+}
+
+.equip-card ::deep .star-rating {
+    margin-top: auto;
+    justify-content: flex-end;
+}

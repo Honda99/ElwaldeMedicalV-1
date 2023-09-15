@@ -1,0 +1,34 @@
+.equip-card[b-qtb8m9l84t] {
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
+}
+
+    .equip-card img[b-qtb8m9l84t] {
+        width: 100%;
+    }
+
+.equip-card-body[b-qtb8m9l84t] {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 8px 0px 8px;
+}
+
+.equip-card-name[b-qtb8m9l84t] {
+    display: inline;
+    margin: 1rem 0 1rem 0;
+    overflow:hidden;
+
+}
+
+.equip-card-source[b-qtb8m9l84t] {
+    margin-top: 0;
+}
+
+.equip-card[b-qtb8m9l84t]  .star-rating {
+    margin-top: auto;
+    justify-content: flex-end;
+}

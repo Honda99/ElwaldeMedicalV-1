@@ -1,0 +1,52 @@
+body[b-xpt5bv0zpr] {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-container[b-xpt5bv0zpr] {
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    width: 100%;
+    background: url("images/CarouselBackground.png") no-repeat;
+    background-size: cover;
+}
+
+.main-container[b-xpt5bv0zpr] {
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item-container[b-xpt5bv0zpr] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.equip-list[b-xpt5bv0zpr] {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18em, 1fr));
+    grid-gap: 20px;
+}
+
+.equip-list-item[b-xpt5bv0zpr] {
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+    .equip-list-item a[b-xpt5bv0zpr] {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .equip-list-item:hover[b-xpt5bv0zpr] {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    }
+
+.search-container[b-xpt5bv0zpr] {
+    margin: 40px 0 40px 0;
+}

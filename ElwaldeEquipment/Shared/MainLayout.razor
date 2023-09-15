@@ -1,0 +1,26 @@
+﻿
+@inherits LayoutComponentBase
+@using ElwaldeEquipment.Data;
+@inject IPartnersStore partnersStore;
+
+<div class="page">
+    <div >
+        <NavMenu />
+    </div>
+
+    <main>
+         <div class="body-layout">
+            @Body
+        </div>
+        <footer>
+            <FootWare Images="partners" />
+        </footer>
+    </main>
+</div>
+@code {
+    private List<Partners> partners=new List<Partners>();
+    protected override async Task OnInitializedAsync()
+    {
+        partners = await partnersStore.GetPartners();
+    }
+}

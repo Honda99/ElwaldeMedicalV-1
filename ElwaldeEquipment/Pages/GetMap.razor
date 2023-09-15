@@ -1,0 +1,14 @@
+﻿@page "/map"
+@inject IJSRuntime JSRuntime;
+<div class="map-container">
+    <div id="map" class="map-layout"></div>
+</div>
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if(firstRender)
+        await JSRuntime.InvokeVoidAsync("loadBingMap","arial"); // NOTE: call JavaScript function with the ID of the carousel
+        //await JSRuntime.InvokeVoidAsync("alertMessage", "Hello");
+    }
+}

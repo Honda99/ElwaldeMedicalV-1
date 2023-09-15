@@ -1,0 +1,107 @@
+/* _content/StarRatings/Component1.razor.rz.scp.css */
+.my-component[b-roqhm1w23d] {
+    border: 2px dashed red;
+    padding: 1em;
+    margin: 1em 0;
+    background-image: url('background.png');
+}
+/* _content/StarRatings/StarRating.razor.rz.scp.css */
+.star-rating[b-o4692z5y1v] {
+    --percent: calc(var(--star-rating) / 5 * 100%);
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+    .star-rating .stars[b-o4692z5y1v] {
+        position: relative;
+        display: inline-block;
+    }
+
+        .star-rating .stars[b-o4692z5y1v]::before {
+            position: absolute;
+            content: "☆☆☆☆☆";
+            color: #666666;
+        }
+
+        .star-rating .stars[b-o4692z5y1v]::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: "★★★★★";
+            color: #feac25;
+            width: var(--percent);
+            overflow: hidden;
+        }
+
+    .star-rating .rating[b-o4692z5y1v] {
+        font-size: 1ex;
+        color: #605E5C
+    }
+
+    .star-rating input[b-o4692z5y1v] {
+        display: none;
+    }
+
+    .star-rating label[b-o4692z5y1v] {
+        float: right;
+    }
+
+        .star-rating label[b-o4692z5y1v]:before {
+            content: "☆";
+            color: #666666;
+            cursor: pointer;
+        }
+
+    .star-rating input:checked ~ label[b-o4692z5y1v]:before,
+    .star-rating:not(:checked) > label:hover[b-o4692z5y1v]:before,
+    .star-rating:not(:checked) > label:hover ~ label[b-o4692z5y1v]:before {
+        content: "★";
+        color: #feac25;
+    }
+/* _content/StarRatings/StarRatingReviews.razor.rz.scp.css */
+.reviews[b-8rm838r1xm]  textarea {
+    display: block;
+    padding: 6px 8px;
+    margin-bottom: 5px;
+    width: 100%;
+    border: 1px solid #605E5C;
+    border-radius: 2px;
+    font-family: Open Sans, sans-serif;
+    font-size: 0.8em;
+    color: #605E5C;
+    box-sizing: border-box;
+}
+
+.reviews[b-8rm838r1xm]  .rating {
+    display: none;
+}
+
+.review-editor[b-8rm838r1xm] {
+    margin-bottom: 10px;
+}
+
+button[b-8rm838r1xm] {
+    padding: 6px 25px;
+    font-family: Playfair Display;
+    color: white;
+    background-color: #435869;
+    border-radius: 2px;
+    border: 0;
+}
+
+    button:hover[b-8rm838r1xm] {
+        background-color: #334452;
+    }
+
+    button:active[b-8rm838r1xm] {
+        background-color: #26343f;
+    }
+
+[b-8rm838r1xm] input.invalid, [b-8rm838r1xm] textarea.invalid, [b-8rm838r1xm] div.invalid {
+    border: 1px solid red;
+}
+
+[b-8rm838r1xm] .validation-errors {
+    color: red;
+    font-size: 0.8em;
+}

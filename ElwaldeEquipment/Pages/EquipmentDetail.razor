@@ -1,0 +1,25 @@
+﻿@page "/{equipId}"
+@using ElwaldeEquipment.Data;
+@inject IEquipmentsStore equipmentStore
+
+<a class="back-link" href="/">←Back to all equipments</a>
+
+<EquipmentDetOne Equipment="equipment"/>
+
+@code {
+    Equipment? equipment;
+
+    [Parameter]
+    [EditorRequired]
+    public string? EquipId { get; set; }
+   
+
+    protected override async Task OnParametersSetAsync()
+    {
+        ArgumentNullException.ThrowIfNull(EquipId);
+        equipment = await equipmentStore.GetEquipment(EquipId);
+    }
+
+   
+}
+

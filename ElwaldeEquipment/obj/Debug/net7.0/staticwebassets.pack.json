@@ -1,0 +1,533 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\obj\\Debug\\net7.0\\build-gz\\HLJqfHVj.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\obj\\Debug\\net7.0\\scopedcss\\bundle\\ElwaldeEquipment.styles.css",
+      "PackagePath": "staticwebassets\\ElwaldeEquipment.styles.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\equipments.json",
+      "PackagePath": "staticwebassets\\equipments.json"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\CarouselBackground.png",
+      "PackagePath": "staticwebassets\\images\\CarouselBackground.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\ElawldeBlack.png",
+      "PackagePath": "staticwebassets\\images\\ElawldeBlack.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\ElwaldeLogo.png",
+      "PackagePath": "staticwebassets\\images\\ElwaldeLogo.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\ElwaldeTextBlack.png",
+      "PackagePath": "staticwebassets\\images\\ElwaldeTextBlack.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\ElwaldeTextWhite.png",
+      "PackagePath": "staticwebassets\\images\\ElwaldeTextWhite.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\ElwaldeWhite.png",
+      "PackagePath": "staticwebassets\\images\\ElwaldeWhite.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\ICUSolution.jpg",
+      "PackagePath": "staticwebassets\\images\\ICUSolution.jpg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\Name.png",
+      "PackagePath": "staticwebassets\\images\\Name.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\NameBlack.png",
+      "PackagePath": "staticwebassets\\images\\NameBlack.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\NameWhite.png",
+      "PackagePath": "staticwebassets\\images\\NameWhite.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\banners\\ICU solution.png",
+      "PackagePath": "staticwebassets\\images\\banners\\ICU solution.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\banners\\dental unit.png",
+      "PackagePath": "staticwebassets\\images\\banners\\dental unit.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\banners\\diagonesis.png",
+      "PackagePath": "staticwebassets\\images\\banners\\diagonesis.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\banners\\weight scale.png",
+      "PackagePath": "staticwebassets\\images\\banners\\weight scale.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\cards\\AX900_AnestasiaMachine.png",
+      "PackagePath": "staticwebassets\\images\\cards\\AX900_AnestasiaMachine.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\cards\\Dental Unit AY-215A2.png",
+      "PackagePath": "staticwebassets\\images\\cards\\Dental Unit AY-215A2.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\cards\\ESR analyzer, ESRA-10.png",
+      "PackagePath": "staticwebassets\\images\\cards\\ESR analyzer, ESRA-10.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\cards\\Fully Automated dry Biochemistry Analyzer (POCT), BA-PA-120.png",
+      "PackagePath": "staticwebassets\\images\\cards\\Fully Automated dry Biochemistry Analyzer (POCT), BA-PA-120.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\cards\\Fully Automatic Urine Analyzer, UA-A3-240.png",
+      "PackagePath": "staticwebassets\\images\\cards\\Fully Automatic Urine Analyzer, UA-A3-240.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\cards\\Fully Automatic Urine Sediment Analyzer, UA-S3-120.png",
+      "PackagePath": "staticwebassets\\images\\cards\\Fully Automatic Urine Sediment Analyzer, UA-S3-120.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\cards\\H12_12chanel_Electrocardiograph.png",
+      "PackagePath": "staticwebassets\\images\\cards\\H12_12chanel_Electrocardiograph.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\cards\\Large Platform Infant Scale, MS5900.png",
+      "PackagePath": "staticwebassets\\images\\cards\\Large Platform Infant Scale, MS5900.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\cards\\M300M500-Syringe-Pump.png",
+      "PackagePath": "staticwebassets\\images\\cards\\M300M500-Syringe-Pump.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\cards\\Semi-Automatic Urine Analyzer, UA-SA-200.png",
+      "PackagePath": "staticwebassets\\images\\cards\\Semi-Automatic Urine Analyzer, UA-SA-200.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\cards\\Semi-Automatic Urine Analyzer, UA-SA-300.png",
+      "PackagePath": "staticwebassets\\images\\cards\\Semi-Automatic Urine Analyzer, UA-SA-300.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\cards\\Semi-Automatic Urine Analyzer, UA-SA13-120.png",
+      "PackagePath": "staticwebassets\\images\\cards\\Semi-Automatic Urine Analyzer, UA-SA13-120.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\cards\\V3_Multifunctional_refirigrator.png",
+      "PackagePath": "staticwebassets\\images\\cards\\V3_Multifunctional_refirigrator.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\icons\\envelope-solid.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\envelope-solid.svg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\icons\\facebook.png",
+      "PackagePath": "staticwebassets\\images\\icons\\facebook.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\icons\\facebook.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\facebook.svg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\icons\\linkedin.png",
+      "PackagePath": "staticwebassets\\images\\icons\\linkedin.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\icons\\linkedin.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\linkedin.svg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\icons\\location-dot-solid.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\location-dot-solid.svg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\icons\\phone-solid.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\phone-solid.svg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\icons\\telegram.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\telegram.svg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\icons\\twitter.png",
+      "PackagePath": "staticwebassets\\images\\icons\\twitter.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\icons\\twitter.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\twitter.svg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\icons\\youtube.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\youtube.svg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\partners\\Anyeyl.png",
+      "PackagePath": "staticwebassets\\images\\partners\\Anyeyl.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\partners\\Bioev Peak.png",
+      "PackagePath": "staticwebassets\\images\\partners\\Bioev Peak.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\partners\\Charder.png",
+      "PackagePath": "staticwebassets\\images\\partners\\Charder.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\partners\\Chenwei-med.png",
+      "PackagePath": "staticwebassets\\images\\partners\\Chenwei-med.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\partners\\Comen.png",
+      "PackagePath": "staticwebassets\\images\\partners\\Comen.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\partners\\Dawei.png",
+      "PackagePath": "staticwebassets\\images\\partners\\Dawei.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\partners\\Drive Devilbiss.png",
+      "PackagePath": "staticwebassets\\images\\partners\\Drive Devilbiss.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\partners\\Kern-sohn.png",
+      "PackagePath": "staticwebassets\\images\\partners\\Kern-sohn.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\partners\\Meissa.png",
+      "PackagePath": "staticwebassets\\images\\partners\\Meissa.png"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\productdetails\\Adjustable Comfort Headrest.jpg",
+      "PackagePath": "staticwebassets\\images\\productdetails\\Adjustable Comfort Headrest.jpg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\productdetails\\Aluminum Cabinet.jpg",
+      "PackagePath": "staticwebassets\\images\\productdetails\\Aluminum Cabinet.jpg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\productdetails\\Cast aluminum lamp holder.jpg",
+      "PackagePath": "staticwebassets\\images\\productdetails\\Cast aluminum lamp holder.jpg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\productdetails\\Dental Unit AY-215A2.jpg",
+      "PackagePath": "staticwebassets\\images\\productdetails\\Dental Unit AY-215A2.jpg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\productdetails\\Dentist Stool C.jpg",
+      "PackagePath": "staticwebassets\\images\\productdetails\\Dentist Stool C.jpg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\productdetails\\Detachable Spittoon.jpg",
+      "PackagePath": "staticwebassets\\images\\productdetails\\Detachable Spittoon.jpg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\productdetails\\Flushing and Water Supply.jpg",
+      "PackagePath": "staticwebassets\\images\\productdetails\\Flushing and Water Supply.jpg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\productdetails\\Instrument Tray.jpg",
+      "PackagePath": "staticwebassets\\images\\productdetails\\Instrument Tray.jpg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\productdetails\\Junction Box.jpg",
+      "PackagePath": "staticwebassets\\images\\productdetails\\Junction Box.jpg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\productdetails\\Multifunctional Foot Pedal.jpg",
+      "PackagePath": "staticwebassets\\images\\productdetails\\Multifunctional Foot Pedal.jpg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\productdetails\\Rotatable Side Box.jpg",
+      "PackagePath": "staticwebassets\\images\\productdetails\\Rotatable Side Box.jpg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\productdetails\\Water Storage Bottle.jpg",
+      "PackagePath": "staticwebassets\\images\\productdetails\\Water Storage Bottle.jpg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\productdetails\\White and yellow light LED operating lamp.jpg",
+      "PackagePath": "staticwebassets\\images\\productdetails\\White and yellow light LED operating lamp.jpg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\images\\productdetails\\leather.jpg",
+      "PackagePath": "staticwebassets\\images\\productdetails\\leather.jpg"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\js\\elwalde.js",
+      "PackagePath": "staticwebassets\\js\\elwalde.js"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\partners.json",
+      "PackagePath": "staticwebassets\\partners.json"
+    },
+    {
+      "Id": "E:\\WaltaCircuit\\WaltaWebsite\\WebAssemb\\ElwaldeEquipment\\ElwaldeEquipment\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ElwaldeEquipment.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ElwaldeEquipment.props",
+      "PackagePath": "build\\ElwaldeEquipment.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ElwaldeEquipment.props",
+      "PackagePath": "buildMultiTargeting\\ElwaldeEquipment.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ElwaldeEquipment.props",
+      "PackagePath": "buildTransitive\\ElwaldeEquipment.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

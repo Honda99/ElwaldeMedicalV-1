@@ -1,0 +1,64 @@
+﻿
+@inject IJSRuntime JSRuntime;
+@inherits Microsoft.AspNetCore.Components.ComponentBase
+
+<div id="@carouselName" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        @for (int i = 0; i < Images.Count; i++)
+        {
+            <li data-bs-target="#baseCarousel" data-bs-slide-to="@i" class="@((i == 0) ? "active" : "")"></li>
+        }
+    </ol>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+        @for (int i = 0; i < Images.Count; i++)
+        {
+            <div class="carousel-item @(i == 0 ? "active" : "")" data-bs-interval="@Images[i].Duration" >
+                <div class="carousel-item-container">
+                    <div class="carousel-imgContainer">
+                        <a href="equipments/@Images[i].Catagory">
+                            <img src="@Images[i].Url" alt="@Images[i].AltText">
+                        </a>
+                       
+                    </div>
+                        @if(!string.IsNullOrWhiteSpace(Images[i].Description)){
+
+                        <div class="carousel-descriptionContainer">
+                            <h2>@Images[i].Title</h2>
+                            <p>@Images[i].Description</p>
+                        </div>
+
+                        }
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- Controls -->
+    <a class="carousel-control-prev" href="#baseCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#baseCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+</div>
+
+
+@code {
+ 
+
+    [Parameter]
+    public List<CarouselImage> Images { get; set; } = new List<CarouselImage>();
+    const string carouselName = "baseCarousel"; // NOTE: the ID of the carousel
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        object[] args = { carouselName };
+        await JSRuntime.InvokeVoidAsync("startCarousel", args); // NOTE: call JavaScript function with the ID of the carousel
+        //await JSRuntime.InvokeVoidAsync("alertMessage", "Hello");
+    }
+}

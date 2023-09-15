@@ -1,0 +1,256 @@
+{
+  "1": {
+    "id": "1",
+    "name": "Semi-Automatic Urine Analyzer, UA-SA13-120",
+    "source": "https://bioevopeak.com/products/semi-automatic-urine-analyzer-ua-sa13-120/",
+    "catagory": "diagonestic",
+    "descriptions": "",
+    "comments": "",
+    "reviews": [
+      {
+        "rating": 2,
+        "text": "Quality product."
+      },
+      {
+        "rating": 1,
+        "text": "Well calibrated."
+      },
+      {
+        "rating": 5,
+        "text": "Precious product!"
+      }
+    ],
+
+    "performances": [
+      "Super LCD monitor",
+      "Adopt a luminescence source with high brightness to minimize interference of the environmental light.",
+      "The color and limpidness can be input",
+      "Date and patient number can be input.",
+      "Single test and continuous test are available",
+      "The data can be saved automatically."
+    ],
+    "testitems": [
+      "PH, Nitrite, Protein",
+      "Glucose, occult blood, bilirubin",
+      "Urobilinogen, ketone",
+      "Specific gravity, Leukocytes",
+      "Ascorbic Acid"
+
+    ],
+    "tags": [
+      "semi",
+      "automatic",
+      "urine",
+      "analayser"
+
+    ],
+    "specifications": {
+      "Model": "UA-SA13-120",
+      "Wavelength": "440-660nm",
+      "Throughput": "120 test/hr",
+      "Storage": "1000  patient data",
+      "Display": "240×64 LCD monitor",
+      "Print": "Built-in thermal printer",
+      "Interface": "Standard RS232 serial interface",
+      "Calibration": "fully automatic calibration",
+      "Condition": "null Temperature: 0-40℃,humidity: 5-90%",
+      "Power": "supply,220VAC±10% 50~60Hz, 30W"
+    }
+
+  },
+  "2": {
+    "id": "2",
+    "name": "Large Platform Infant Scale, MS5900",
+    "source": "https://www.chardermedical.com/infant-weighing-scales/MS5900.html",
+    "catagory": "weight scale",
+    "descriptions": "The MS5900 digital infant scale features a measurement tray with gentle sloped edges to safely and comfortably hold infants during weighing. Highly accurate, the MS5900 is able to track even slight changes in infants' weight. Measurement results can be transmitted to a PC or an optional thermal printer.\r\n\r\nSeveral features of the scale are specifically useful for babies, such as the tare function that allows the weight of a diaper to be tared and then removed from the total weight, and the hold function that locks a weight measurement even as the baby continues to move.",
+    "comments": "",
+    "reviews": [
+      {
+        "rating": 2,
+        "text": "Quality product."
+      },
+      {
+        "rating": 1,
+        "text": "Well calibrated."
+      },
+      {
+        "rating": 5,
+        "text": "Precious product!"
+      }
+    ],
+
+    "performances": [
+      "Functions: • Hold   •Tare ",
+      "Key Functions:ON/OFF , ZERO/TARE , Memory/Recall , Hold/Milk Intake",
+      "Data:USB",
+      "Transmitions:Wireless (optional)",
+      "Design Features:• Bubble level  • Adjstable feet • Software - controlled weight damper • Memory recall • Ergonomically contoured weighing tray • Anti-Tilt Design • Milk Intake",
+      "The data can be saved automatically."
+    ],
+    "testitems": [
+    ],
+    "tags": [
+      "semi",
+      "automatic",
+      "urine",
+      "analayser"
+
+    ],
+    "specifications": {
+      "Indicator": "Embedded",
+      "Capacity": "15kg     20kg",
+      "Graduation": "2g<6kg>5g      5g<10kg>10g",
+      "Dimensions": "Overall: 670(W) x 330(D) x 125(H) mm \n Platform: 630(W) X 250(D) X 70(H) mm ",
+      "Device weight": "4.1 kg",
+      "Power Source": "AA Batteries*6",
+      "Interface": "Standard RS232 serial interface",
+      "Calibration": "fully automatic calibration",
+      "Condition": "null Temperature: 0-40℃,humidity: 5-90%",
+      "Power": "supply,220VAC±10% 50~60Hz, 30W"
+    }
+  },
+  "3": {
+    "id": "3",
+    "name": "Dental Unit AY-215A2",
+    "source": "https://www.anyeyl.com/product/AY-215A2.html",
+    "catagory": "dental",
+    "descriptions": "AY-215A2 is made of a fourth-generation high-end professional dental unit based on comfort and technology. The product is designed according to market demand to meet the clinical professional needs of medical staff and provide patients with wide and comfortable seats. It is in line with the ergonomic streamline design, can automatically cooperate with the cushion movement to form an elevation angle, and has a stronger sense of back support. The intimate design of AY-215A2 can bring more comfort to patients.",
+    "comments": "",
+    "reviews": [
+      {
+        "rating": 2,
+        "text": "Quality product."
+      },
+      {
+        "rating": 1,
+        "text": "Well calibrated."
+      },
+      {
+        "rating": 5,
+        "text": "Precious product!"
+      }
+    ],
+
+    "productdetails": [
+      {
+        "Name": "Detachable Spittoon",
+        "Imgurl": "images/productdetails/Detachable Spittoon.jpg",
+        "Detail": "The spittoon is detachable for easy cleaning, it can be rotated by 90°for patients to spit."
+      },
+      {
+        "Name": "Instrument Tray",
+        "Imgurl": "images/productdetails/Instrument Tray.jpg",
+        "Detail": "Instrument Tray \n -With Electric dental chair control system \n -With 14 control buttons \n -3 memories \n -One button preset working position which greatly improves the dentist's work efficiency."
+      },
+      {
+        "Name": "White and yellow light LED operating lamp",
+        "Imgurl": "images/productdetails/White and yellow light LED operating lamp.jpg",
+        "Detail": "Philips LED light source. 4 white light emitting diodes (LED) , 4 white light emitting diodes (with filter) dedicated dental lamp, it has a large projection angle,high illumination adjustable from  ＜8,000 to ＞30,000, infrared sensor switch or touch switch to control stepless dimming, color temperature selection 5000k±10%"
+      },
+      {
+        "Name": "Adjustable Comfort Headrest",
+        "Imgurl": "images/productdetails/Adjustable Comfort Headrest.jpg",
+        "Detail": "The adjustable curved headrest is more comfortable than the traditional flat headrest, it’s prevents the head from shaking and can be adjusted from multiple angles."
+      },
+      {
+        "Name": "Flushing and Water Supply",
+        "Imgurl": "images/productdetails/Flushing and Water Supply.jpg",
+        "Detail": "The water supply nozzle is 2cm higher than the surface of the spittoon cylinder to avoid cross infection caused by water splashing to the water supply nozzle during sputum flushing."
+      },
+      {
+        "Name": "Dentist Stool C",
+        "Imgurl": "images/productdetails/Dentist Stool C.jpg",
+        "Detail": "With 360°mute universal wheel which is flexible to move, cushion lifting, backrest pitching. It’s provides the dentist with good support for the hips and waist."
+      },
+      {
+        "Name": "Junction Box",
+        "Imgurl": "images/productdetails/Junction Box.jpg",
+        "Detail": "Enclosed power design, according to European safety standards, moisture-proof, dustproof and prevent electromagnetic interference. It’s improve the stability and durability of the prower. \n With main switch of water, electric and air, the barometer is on the top of the junction box which is convenient for observing the water and air status of the whole machine."
+      },
+      {
+        "Name": "Multifunctional Foot Pedal",
+        "Imgurl": "images/productdetails/Multifunctional Foot Pedal.jpg",
+        "Detail": "The pedals have self-lock function and equipped with control of rise and down, backrest forward and backward, blowing, flushing and water supply."
+      },
+      {
+        "Name": "Water Storage Bottle",
+        "Imgurl": "images/productdetails/Water Storage Bottle.jpg",
+        "Detail": "1.5L large capacity water storage bottle, transparent material, water storage is obvious."
+      },
+      {
+        "Name": "Rotatable Side Box",
+        "Imgurl": "images/productdetails/Rotatable Side Box.jpg",
+        "Detail": "The side can be rotated 45°, and the moving range is wide, so it is easy to locate the position needed by the assistant."
+      },
+      {
+        "Name": "Aluminum Cabinet",
+        "Imgurl": "images/productdetails/Aluminum Cabinet.jpg",
+        "Detail": "High strength integral molding, integral casting aluminum, no rust, high hardness, durable, not easy to deformation."
+      },
+      {
+        "Name": "Cast aluminum lamp holder",
+        "Imgurl": "images/productdetails/Cast aluminum lamp holder.jpg",
+        "Detail": "Cast aluminum lamp holder, high flexibility, long service life (after 100,000 fatigue tests)."
+      },
+      {
+        "Name": "leather",
+        "Imgurl": "images/productdetails/leather.jpg",
+        "Detail": "Made of extremely abrasion-resistant fiber leather, it's  softness and breathability. The cushion is filled with highly elastic foam to keep the patient in a comfortable and relaxed state."
+      }
+    ],
+   
+    "tags": [
+      "dental",
+      "unit"
+    ],
+    "parameters": {
+      "Technica Parameters": {
+        "Power Voltage": "220V-50HZ/60HZ",
+        "Motor Voltage": "24V",
+        "Air Pressure": "0.5MPa-0.8MPa",
+        "Water Pressure": "0.2MPa-0.4MPa "
+      },
+      "Led Light": {
+        "Rated input voltage": "AC 24V±10%",
+        "Maximum power": "25VA",
+        "Light Source": "4 white light-emitting diodes (LED) and 4 yellow light-emitting diodes (LED)",
+        "Color Temperature": "5,000K - 5,700K ",
+        "Illuminance": "Adjustable from ＜8,000 to ＞30,000 "
+      }
+    },
+ 
+    "confugitation": [
+      "24V DC Motor",
+      "Down Mounted Instrument Tray",
+
+      "3-Way Syringe(Assistant)Cold/Hot Water",
+
+      "Assistant Operating Control System",
+
+      "Water Heater System",
+      "Strong Suction Tube",
+      "Weak Suction Tube",
+      "Air Brake Instrument Tray",
+      "Emergency Switch(On/Off)",
+      "Auto Spittoon Flush And Cup Filler Control System",
+      "Detachable 90°Moveble Spittoon",
+      "Chair With Self-lock Function",
+      "Multifuncitonal Foot Pedal",
+      "Keypress Function For Spitting",
+      "Control Box With Main Switch(Water/Electric/Air)",
+      "Reflective LED Operating Light(White/Yellow)",
+      "3 Memories",
+      "Dentist stool C",
+      "Movable Cabinet",
+      "Ceremic Spittoon",
+      "Synchronized",
+      "The Latest Generation Integral Chair Frame System",
+      "Cast Aluminum Cabinet",
+      "Water One-way Valve(Anti-backflow Function)"
+    ]
+
+  }
+
+
+}

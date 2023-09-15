@@ -1,0 +1,127 @@
+.source-and-servings[b-x9fecfyrd5] {
+    text-align: center;
+    text-transform: uppercase;
+    color: #212A31;
+    text-align: center;
+    margin: 5px 0;
+}
+
+input[type="checkbox"][b-x9fecfyrd5] {
+    vertical-align: middle;
+}
+
+.equip > .star-rating-avg[b-x9fecfyrd5] {
+    text-align: center;
+    margin: 5px auto;
+}
+
+.equip-banner[b-x9fecfyrd5] {
+    display: block;
+}
+
+    .equip-banner img[b-x9fecfyrd5] {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+.equip-details[b-x9fecfyrd5] {
+    padding: 0 5%;
+}
+
+    .equip-details ul[b-x9fecfyrd5] {
+        list-style: none;
+        padding: 0;
+    }
+
+.tag[b-x9fecfyrd5] {
+    color: inherit;
+    font-size: 0.8em;
+    text-decoration: none;
+    background-color: #eaeaea;
+    text-transform: uppercase;
+    padding: 0 4px;
+}
+
+.equip h1[b-x9fecfyrd5] {
+    text-align: center;
+}
+.collapse[b-x9fecfyrd5]{
+    display:none;
+}
+.show[b-x9fecfyrd5]{
+    display:block;
+}
+.card-header[b-x9fecfyrd5]{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.btn-tab[b-x9fecfyrd5]{
+    margin:5px;
+}
+    .btn-tab:focus[b-x9fecfyrd5] {
+       box-shadow:none;
+    
+     border-bottom:5px solid red;
+       
+    }
+    .detail-container[b-x9fecfyrd5]{
+        display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+        grid-gap:10px;
+    }
+    .prod-img-container[b-x9fecfyrd5]{
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+    }
+    .detail-img-container[b-x9fecfyrd5]{
+        display:flex;
+    }
+.detail-img-container img[b-x9fecfyrd5] {
+   
+  object-fit:cover;
+}
+.btn-contact[b-x9fecfyrd5] {
+    height: 2.5rem;
+    width: 400px;
+    background-color: #2d2f56;
+    margin: 20px;
+    color: white;
+}
+    .btn-contact:hover[b-x9fecfyrd5] {
+        background-color:#464760;
+    }
+    .btn-contact:focus[b-x9fecfyrd5] {
+        background-color: #373967;
+    }
+.contact-container[b-x9fecfyrd5] {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+    .contactus[b-x9fecfyrd5]{
+        position:absolute;
+        width:100%;
+        display:block;
+        z-index:2;
+        bottom:4.5rem;
+        background-color:rgb(80, 91, 104, 0.92);
+        color:white;
+
+    }
+    .hide[b-x9fecfyrd5]{
+        display:none;
+    }
+    .logo[b-x9fecfyrd5]{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }

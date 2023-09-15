@@ -1,0 +1,114 @@
+﻿@inject IJSRuntime JSRuntime;
+@inject NavigationManager navMan;
+<div class="partners-view">
+    <h3>Partners</h3>
+    <hr />
+
+<div id="carouselControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        @for (int i = 0; i < Images.Count; i += 4)
+        {
+            <div class="carousel-item @(i == 0 ? " active" : "")" data-bs-interval="5000">
+                <div class="carousel-img-items">
+            @for (int j = i; j < i + 4; j++)
+            {
+                    @if (j < Images.Count)
+                    {
+                        <img src="@Images[j].LogoUri"  class="d-block w-100" alt="...">
+                    }
+              
+
+            }
+                </div>
+            </div>
+
+        }
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+</div>
+<hr />
+<div class="footer">
+    <div class="footer-inner">
+
+  
+    <div class="campony-profile">
+       
+        <div class="logo">
+            <img src="images/ElwaldeLogo.png" width="100" height="100" alt="Elwalde"/>
+            <img src="/images/ElwaldeWhite.png" width="150" alt="Elwalde" />
+        </div>
+        <div class="social-media">
+            <a class="linkedin" href="">
+                <img src="/images/icons/linkedin.png" width="40" height="40"/>
+            </a>
+            <a class="twitter" href="">
+              <img src="/images/icons/twitter.png" width="40" height="40"/>
+            </a>
+            <a class="facebook" href="">
+                    <img src="/images/icons/facebook.png" width="40" height="40" />
+            </a>
+        </div>
+        <div class="contact-info">
+            <div>
+                <span class="oi oi-phone"></span>
+                +251912435347
+            </div>
+            <div>
+                <span class="oi oi-envelope-open"></span>
+                    walta.tekle@gmail.com
+            </div>
+            <div>
+                <h5>Adress:</h5>
+                <p>Close to EBC new station, Addis Ababa, Ethiopia</p>
+            </div>
+        </div>
+    </div>
+      
+    <div class="products">
+
+        <h3>Products</h3>
+        <hr />
+            <a href="equipments/dental">
+            Dental
+        </a>
+        <hr />
+            <a href="equipments/diagonestic">
+            Diagonestic
+        </a>
+        <hr />
+            <a href="equipments/weight scale">
+            Weight Scale
+        </a>
+        <hr />
+
+    </div>
+     
+    <div class="map">
+     <div id="map" class="map-layout" @onclick="Navigate">
+        
+     </div>
+    </div>
+    </div>
+</div>
+@code {
+    [Parameter]
+    public List<Partners> Images { get; set; }
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+
+        if(firstRender)
+            await JSRuntime.InvokeVoidAsync("loadBingMap","road"); // NOTE: call JavaScript function with the ID of the carousel
+                                                                    //await JSRuntime.InvokeVoidAsync("alertMessage", "Hello");
+    }
+    private void Navigate(){
+        navMan.NavigateTo("/map");
+    }
+}

@@ -1,0 +1,53 @@
+﻿@page "/equipments/{catagoryId}"
+@using ElwaldeEquipment.Data;
+@using static ElwaldeEquipment.Data.EnumClass;
+@inject IEquipmentsStore equipmentStore;
+<div class="main-container">
+    <a class="back-link" href="/">←Back to all equipments</a>
+    <div class="search-container">
+        <SearchBox placeholder="Search equipments..." SearchQueryChanged="Search" />
+    </div>
+   
+
+    @if (equipments == null)
+    {
+        <p>Loading equipments...</p>
+    }
+    else
+    {
+        <ul class="equip-list">
+            @foreach (var equipment in equipments)
+            {
+                <li class="equip-list-item">
+                    <a href="@equipment.Id">
+                        <EquipmentCard Equipment="equipment" />
+                    </a>
+                </li>
+            }
+        </ul>
+    }
+</div>
+
+
+
+@code {
+    IEnumerable<Equipment>? equipments;
+    [Parameter]
+    public string CatagoryId{ get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        equipments = await equipmentStore.GetEquipments();
+        if (CatagoryId != "other")
+        {
+            equipments = equipments.Where(eq => eq.Catagory == CatagoryId);
+        }
+       
+
+       
+        
+    }
+    async Task Search(string query)
+    {
+        equipments = await equipmentStore.GetEquipments(query);
+    }
+}

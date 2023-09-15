@@ -1,0 +1,12 @@
+
+.map-layout[b-b8hebe4ns8] {
+    width: 600px;
+    height: 600px;
+    font-size: 20px;
+}
+.map-container[b-b8hebe4ns8]{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

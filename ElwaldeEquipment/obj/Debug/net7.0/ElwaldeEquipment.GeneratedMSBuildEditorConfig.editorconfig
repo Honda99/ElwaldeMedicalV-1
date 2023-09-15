@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = ElwaldeEquipment
+build_property.RootNamespace = ElwaldeEquipment
+build_property.ProjectDir = E:\WaltaCircuit\WaltaWebsite\WebAssemb\ElwaldeEquipment\ElwaldeEquipment\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\WaltaCircuit\WaltaWebsite\WebAssemb\ElwaldeEquipment\ElwaldeEquipment
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Components/ContactUs.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250YWN0VXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-6l760v42de
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Components/EquipmentCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFcXVpcG1lbnRDYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-qtb8m9l84t
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Components/EquipmentDetOne.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFcXVpcG1lbnREZXRPbmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-x9fecfyrd5
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Components/EquipmentDetTwo.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFcXVpcG1lbnREZXRUd28ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-3tgpn0afec
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Components/SearchBox.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZWFyY2hCb3gucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-idpbw8c5jw
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Pages/AboutUs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRVcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-7kx52h83xa
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Pages/ContacPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-0up2aew4ra
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Pages/ContactInfo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdEluZm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-sjuc1s59w9
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Pages/EquipmentDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBtZW50RGV0YWlsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-1yve9n6zc4
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Pages/Equipments.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBtZW50cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-gx2z9ic1zc
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Pages/GetMap.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2V0TWFwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-b8hebe4ns8
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-xpt5bv0zpr
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Shared/Carousel.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENhcm91c2VsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-wb0w6qnph4
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Shared/FootWare.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3RXYXJlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-cu2qt1sxl4
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-922ra0wcvi
+
+[E:/WaltaCircuit/WaltaWebsite/WebAssemb/ElwaldeEquipment/ElwaldeEquipment/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-d6gap00moy

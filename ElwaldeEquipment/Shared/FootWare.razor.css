@@ -1,0 +1,143 @@
+﻿
+.carousel{
+    display:flex;
+   justify-content:center;
+    
+}
+.carousel-inner{
+    width:650px;
+}
+.carousel-img-items{
+    display:flex;
+    height:3rem;
+}
+.carousel-img-items img {
+  max-width:150px;
+  min-width:100px;
+  margin:10px;
+}
+.partners-view h3{
+    text-align:center;
+}
+.footer{
+   
+    background-color:#1f0706;
+    color:white;
+}
+.footer-inner {
+    display: flex;
+    width:100%;
+    padding: 30px;
+    gap:10px;
+    justify-content:center;
+  
+}
+.products {
+    flex-basis:30%;
+    display:flex;
+    flex-direction:column;
+    border-top: solid 2px #808080;
+    padding:20px;
+    margin-bottom:10px;
+    
+   
+}
+.campony-profile {
+    flex-basis: 30%;
+    margin-bottom: 10px;
+    border-top: solid 2px #808080;
+}
+.map {
+    display: flex;
+    justify-content: center;
+    flex-basis: 35%;
+    margin-bottom: 10px;
+    border-top: solid 2px #808080;
+}
+.logo img{
+    display:block;
+  
+}
+.logo{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:20px;
+}
+.contact-info div {
+    margin:5px 0 5px 0;
+    font-size: 16px;
+}
+.contact-info span{
+    font-size:20px;
+    margin:5px;
+    color:#0218c6;
+}
+.map span{
+    font-size:50px;
+}
+.social-media{
+    display:flex;
+    
+}
+.social-media a:hover{
+    background-color:blueviolet;
+}
+.linkedin{
+    display:block;
+    text-decoration:none;
+  
+    height:40px;
+    width:40px;
+  
+    margin:5px;
+   
+}
+.twitter {
+    display: block;
+    text-decoration: none;
+  
+    height: 40px;
+    width: 40px;
+  
+    margin: 5px;
+}
+.facebook {
+    display: block;
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+.products a{
+    display:block;
+    text-decoration:none;
+    width:100%;
+    color:white;
+    padding:10px;
+    margin:0;
+}
+.products a:hover {
+   
+   background-color:chocolate;
+}
+.map{
+    padding:20px;
+
+}
+.map-layout {
+    height:300px;
+    width:300px;
+    font-size: 20px;
+}
+.map-layout:hover {
+   
+    font-size: 20px;
+    cursor:pointer;
+}
+@media (max-width: 800px) {
+    .footer-inner{
+        flex-direction:column;
+    }
+}

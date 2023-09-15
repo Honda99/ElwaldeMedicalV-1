@@ -1,0 +1,127 @@
+﻿.source-and-servings {
+    text-align: center;
+    text-transform: uppercase;
+    color: #212A31;
+    text-align: center;
+    margin: 5px 0;
+}
+
+input[type="checkbox"] {
+    vertical-align: middle;
+}
+
+.equip > .star-rating-avg {
+    text-align: center;
+    margin: 5px auto;
+}
+
+.equip-banner {
+    display: block;
+}
+
+    .equip-banner img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+.equip-details {
+    padding: 0 5%;
+}
+
+    .equip-details ul {
+        list-style: none;
+        padding: 0;
+    }
+
+.tag {
+    color: inherit;
+    font-size: 0.8em;
+    text-decoration: none;
+    background-color: #eaeaea;
+    text-transform: uppercase;
+    padding: 0 4px;
+}
+
+.equip h1 {
+    text-align: center;
+}
+.collapse{
+    display:none;
+}
+.show{
+    display:block;
+}
+.card-header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.btn-tab{
+    margin:5px;
+}
+    .btn-tab:focus {
+       box-shadow:none;
+    
+     border-bottom:5px solid red;
+       
+    }
+    .detail-container{
+        display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+        grid-gap:10px;
+    }
+    .prod-img-container{
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+    }
+    .detail-img-container{
+        display:flex;
+    }
+.detail-img-container img {
+   
+  object-fit:cover;
+}
+.btn-contact {
+    height: 2.5rem;
+    width: 400px;
+    background-color: #2d2f56;
+    margin: 20px;
+    color: white;
+}
+    .btn-contact:hover {
+        background-color:#464760;
+    }
+    .btn-contact:focus {
+        background-color: #373967;
+    }
+.contact-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+    .contactus{
+        position:absolute;
+        width:100%;
+        display:block;
+        z-index:2;
+        bottom:4.5rem;
+        background-color:rgb(80, 91, 104, 0.92);
+        color:white;
+
+    }
+    .hide{
+        display:none;
+    }
+    .logo{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
